@@ -12,6 +12,12 @@
 
     }
 
+    if (flagArr.length > 31) {
+
+      throw new Error('FlagsJS Does not support more than 31 flags in a single object!');
+
+    }
+
     this.FLAG_DEFS = {};
 
     for (var i = 0; i < flagArr.length; i++) {
