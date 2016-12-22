@@ -25,7 +25,7 @@ flags.isSet(ctx, ['E', 'G', 'B']);
 ctx = flags.unSet(ctx, 'B');
 
 /*We can unset multiple flags in a context...*/
-ctx = flags.unSet({}, ['A','C','E','G','I']);
+ctx = flags.unSet(ctx, ['A','C','E','G','I']);
 
 /*We can check whether or not ALL of the following flags are set: */
 flags.isSet(ctx, ['A','C','E','G','I']);
