@@ -13,7 +13,7 @@
   "authors": [
     "Johnathan Botha <jokillsya@gmail.com>"
   ],
-  "license": "GPLv2",
+  "license": "MIT",
   "ignore": [
     "**/.*",
     "node_modules",
