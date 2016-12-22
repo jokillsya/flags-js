@@ -1,0 +1,29 @@
+{
+  "name": "flags-js",
+  "description": "Simple memory efficient JavaScript Flags API",
+  "main": [
+    "src/flags-js.js"
+  ],
+  "moduleType": [
+    "globals"
+  ],
+  "keywords": [
+    "flags"
+  ],
+  "authors": [
+    "Johnathan Botha <jokillsya@gmail.com>"
+  ],
+  "license": "GPLv2",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:jokillsya/flags-js.git"
+  },
+  "private": false
+}
